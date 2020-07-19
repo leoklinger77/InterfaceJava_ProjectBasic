@@ -29,6 +29,9 @@ public class Contract {
 	public Double getTotalValue() {
 		return totalValue;
 	}
+	public List<Installment> getInstallments() {
+		return list;
+	}
 	public void addList(Installment instaloment) {
 		list.add(instaloment);
 	}
